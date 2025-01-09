@@ -5,6 +5,7 @@
 Missing Data and Fixes
 
 1. Missing Values:
+   
 • Quantity: Some rows had missing values in the Quantity column.
 
 • Fix: Replaced missing values with the median of the Quantity column to maintain the distribution and avoid introducing bias.
@@ -24,6 +25,7 @@ Missing Data and Fixes
 
 
 What Was Fixed:
+
 • Replaced missing values with appropriate statistics (median for Quantity, mean for Price, and mode for Customer ID and Region).
 
 • No rows with missing data remain in the dataset after imputation.
